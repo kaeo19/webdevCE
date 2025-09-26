@@ -6,13 +6,13 @@ margin: 0;
 }
 
    /*header stuff here*/ 
-   header { background-color: #eaeaee ;
+   header { background-color: #9BC09C ;
 padding: 1rem 10px;
 
 
 }
 header span{
-    color: #b3b3b3 ;
+    color: #901E3E ;
     font-size: 1.6rem;
     font-weight:700 ;
 }
@@ -21,7 +21,7 @@ header span{
 /* navigation stuff*/
 
 nav{
-    background-color: #f2b705;
+    background-color: #DC2525;
 
 }
 nav ul{
@@ -36,7 +36,7 @@ nav a {
     padding: .83rem 1rem;
     text-decoration: none;
     font-size: 1.1rem;
-    color: #024873;
+    color:#511D43;
     font-weight: 700;
 }
 nav li.active a {
@@ -81,7 +81,7 @@ main ul li {
 
 main strong {
     font-weight: 700;
-    color: #000;
+    color: #901E3E;
 }
 
 main em {
