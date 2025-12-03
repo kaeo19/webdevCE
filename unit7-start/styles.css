@@ -81,9 +81,8 @@ text-transform: uppercase;
     }
 
     nav .active a {
-background-color:
-white;
-background-image: linear-gradient(to bottom, #8b5022,#663b19) 
+    background-color: white;
+    background-image: linear-gradient(to bottom, #8b5022, #663b19);
 
 }
 }
@@ -128,8 +127,17 @@ main a {
     color: #895772;
 }
 .angeloGallery img {
-    width: 98%;
+    width: 100%;
     height: auto;
+    display: block;
+    box-shadow: 6px 6px 0px black;
+    border-radius: 5px;
+}
+
+/* allow nav items to wrap if needed */
+nav ul {
+    flex-wrap: wrap;
+    gap: .5rem;
 }
 
 
