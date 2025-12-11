@@ -97,6 +97,16 @@ main h1 {
     margin: .5rem 0 .8rem 0;
     font-weight: 200;
 }
+/* style for intro figure on index */
+figure.intro-image {
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+figure.intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
 main h2 {
     color: #8b5022;
     margin-bottom: .2rem;
