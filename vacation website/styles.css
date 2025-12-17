@@ -227,6 +227,7 @@ header, nav, main, footer {
         padding: 0 2vw;
         list-style-type: none;
         display: flex;
+        flex-direction: column;
     }
     nav a {
         display: block;
